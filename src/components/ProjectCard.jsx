@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import { Card,Modal } from 'react-bootstrap'
 
-const ProjectCard = () => {
+const ProjectCard = ({displayData}) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -11,7 +11,7 @@ const ProjectCard = () => {
     <Card onClick={handleShow} className='shadow btn'>
       <Card.Img variant='top' height={'200px'} src=''/>
       <Card.Body>
-        <Card.Title>Title</Card.Title>
+        <Card.Title>{displayData?.title}</Card.Title>
       </Card.Body>
     </Card>
 
