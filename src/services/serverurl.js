@@ -1,3 +1,3 @@
-const SERVERURL = "https://project-fair-1jty.vercel.app/?vercelToolbarCode=JMp4afBgkjaLynv"
+const SERVERURL = "https://pf-server-r1ct.onrender.com"
 
 export default SERVERURL
